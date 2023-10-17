@@ -26,6 +26,7 @@ In our dataset, we have seen some levels of skewness. Hence, we implemented prep
 
 # 3) Results
 We were able to produce Table 1 using the TableOne package in Python. 
+
 ![table](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/8341d6ed-0485-4641-8e5d-52538d006012)
 
 ## 3.1) Logistic Regression Machine Learning Model: 
@@ -45,10 +46,12 @@ Comparing all these results, either Balanced Random Forest Classifier with SMOTE
 
 ## 3.3) Champion Model Performance on never seen Test Data: 
 In the final test of our champion model, the Random Forest Classifier with SMOTE achieved an impressive accuracy of 94.8%, demonstrating its robustness in identifying extended hospital stays. With a precision of 0.86, recall of 0.80, and f1-score of 0.83, the model strikes a good balance between correctly predicting extended stays and minimizing false positives.
+
 ![ROC_Curve](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/411858a7-e424-4c6a-bcbe-ab832246764b)
 
 ## 3.4) Feature Importance: 
 The most crucial feature predicting extended hospital stays was a history of five or more readmissions within 180 days. This was followed by medical parameters such as hematocrit, BMI, and glucose levels. Both patient history and medical parameters emerged as vital indicators of extended hospital stays. 
+
 ![feature-Importance](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/fa23b48d-04af-490f-b5d6-4b9f6f9e3228)
 
 # 4) Discussion 
