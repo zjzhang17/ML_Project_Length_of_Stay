@@ -26,6 +26,7 @@ In our dataset, we have seen some levels of skewness. Hence, we implemented prep
 
 # 3) Results
 We were able to produce Table 1 using the TableOne package in Python. 
+![table](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/8341d6ed-0485-4641-8e5d-52538d006012)
 
 ## 3.1) Logistic Regression Machine Learning Model: 
 An initial accuracy of 92.14% was achieved on the validation dataset with precision (0.94), recall (0.68), and f1-score (0.74) for predicting extended stays. Post hyperparameter tuning, the model's performance exhibited a slight enhancement, a validation accuracy of 92.31%, and a slight decrease in precision (0.86), recall (0.62), and f1-score (0.72) for predicting extended stays. The tuned logistic regression model successfully predicts extended hospital stays with a balanced trade-off between precision and recall. 
@@ -44,9 +45,11 @@ Comparing all these results, either Balanced Random Forest Classifier with SMOTE
 
 ## 3.3) Champion Model Performance on never seen Test Data: 
 In the final test of our champion model, the Random Forest Classifier with SMOTE achieved an impressive accuracy of 94.8%, demonstrating its robustness in identifying extended hospital stays. With a precision of 0.86, recall of 0.80, and f1-score of 0.83, the model strikes a good balance between correctly predicting extended stays and minimizing false positives.
+![ROC_Curve](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/411858a7-e424-4c6a-bcbe-ab832246764b)
 
 ## 3.4) Feature Importance: 
 The most crucial feature predicting extended hospital stays was a history of five or more readmissions within 180 days. This was followed by medical parameters such as hematocrit, BMI, and glucose levels. Both patient history and medical parameters emerged as vital indicators of extended hospital stays. 
+![feature-Importance](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/fa23b48d-04af-490f-b5d6-4b9f6f9e3228)
 
 # 4) Discussion 
 The study's results underscore the significance of combining patient history with medical parameters when forecasting extended hospitalization. Factors such as readmission frequency, BMI, and glucose levels play pivotal roles in determining hospital stay durations. 
