@@ -1,4 +1,4 @@
-# Extended Length of Stays in Hospital: A Predictive Analysis Using Machine Learning
+# Extended Lengths of Stay in a Hospital: Predictive Analysis Using Machine Learning
 
 # Abstract 
 This project aims to understand and predict the significant factors influencing extended length of stay in hospitals, defined as stays lasting seven days or more. Utilizing machine learning models, including Logistic Regression, Random Forest, and Random Forest, this study attempts to provide meaningful insights for healthcare professionals to optimize patient care. 
