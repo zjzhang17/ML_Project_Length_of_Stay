@@ -55,7 +55,7 @@ The most crucial feature predicting extended hospital stays was a history of fiv
 ![feature-Importance](https://github.com/zjzhang17/ML_Project_Length_of_Stay/assets/116914452/fa23b48d-04af-490f-b5d6-4b9f6f9e3228)
 
 # 4) Discussion 
-The study's results underscore the significance of combining patient history with medical parameters when forecasting extended hospitalization. Factors such as readmission frequency, BMI, and glucose levels play pivotal roles in determining hospital stay durations. 
+The project's results underscore the significance of combining patient history with medical parameters when forecasting extended hospitalization. Factors such as readmission frequency, BMI, and glucose levels play pivotal roles in determining hospital stay durations. 
 
 # 5) Conclusion 
 Machine learning models can effectively identify patients at risk of extended hospital stays. Such predictive insights offer healthcare professionals actionable information, potentially reducing prolonged hospitalizations and enhancing patient care. 
@@ -64,7 +64,7 @@ Machine learning models can effectively identify patients at risk of extended ho
 Healthcare facilities should consider leveraging machine learning tools for patient management. By understanding the key variables affecting extended hospital stays, these establishments can develop targeted interventions to improve patient outcomes and operational efficiency. 
 
 # 7) Limitations
-This study is based on data from a single institution, which might limit its generalizability. Future studies should incorporate multi-institutional data for a more comprehensive understanding. 
+This project is based on data from a single institution, which might limit its generalizability. Future studies should incorporate multi-institutional data for a more comprehensive understanding. 
 
 
 
